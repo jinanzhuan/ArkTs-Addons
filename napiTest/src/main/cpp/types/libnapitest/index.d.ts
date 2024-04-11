@@ -4,7 +4,7 @@ export const add: (a: number, b: number) => number;
 export const hello: () => string;
 export const nativeCallback: (cb: (a: string) => string) => string;
 export class StringObject {
-  public get msg();
+  public get msg(): string;
 }
 export const createObject: (a: string) => StringObject;
 
