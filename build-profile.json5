@@ -1,0 +1,62 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/neil/.ohos/config/default_TestC_9Oq_mSudZEMWYVt12z9HzT7sHN9kXXv4i30LxCq-PU4=.cer",
+          "storePassword": "0000001BE1461F991ACAE88E6D531D115E7574E37C4530C51795C1A36522F9123F13197FD7E39D2755C2AA",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B3E608852F9F0E815557B99E3402C2E4F14DA39386B9F631EF275C1D2C069F36C731A246DDF4CB6",
+          "profile": "/Users/neil/.ohos/config/default_TestC_9Oq_mSudZEMWYVt12z9HzT7sHN9kXXv4i30LxCq-PU4=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/neil/.ohos/config/default_TestC_9Oq_mSudZEMWYVt12z9HzT7sHN9kXXv4i30LxCq-PU4=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "napiTest",
+      "srcPath": "./napiTest",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

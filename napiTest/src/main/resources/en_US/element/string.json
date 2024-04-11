@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "NapiTestAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "NapiTestAbility_label",
+      "value": "label"
+    }
+  ]
+}

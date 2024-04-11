@@ -1,0 +1,7 @@
+// 4.将 index.d.ts与cpp文件关联起来。
+{
+  "name": "libentry.so",
+  "types": "./index.d.ts",
+  "version": "",
+  "description": "Please describe the basic information."
+}
